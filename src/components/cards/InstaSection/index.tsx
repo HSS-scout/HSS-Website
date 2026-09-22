@@ -94,8 +94,6 @@ export default function InstaSection() {
     }
   };
 
-  console.log(apiData)
-
   useEffect(() => {
     fetchInstaData();
   }, []);
