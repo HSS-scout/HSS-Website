@@ -79,11 +79,9 @@ const PostCard = ({
 export default function InstaSection() {
   const [apiData, setApiData] = useState<FeedProps[]>([]);
 
-  const url = "https://feeds.behold.so/au47cEddhn57lA49VlAe";
-
   const fetchInstaData = async () => {
     try {
-      const res = await fetch(url, { next: { revalidate: 3600 } });
+      const res = await fetch(process.env.NEXT_PUBLIC_BEHOLD_API!, { next: { revalidate: 3600 } });
       if (!res.ok) return;
       const data = await res.json();
       setApiData(
@@ -95,6 +93,8 @@ export default function InstaSection() {
       console.log("An Error Occured", error);
     }
   };
+
+  console.log(apiData)
 
   useEffect(() => {
     fetchInstaData();
