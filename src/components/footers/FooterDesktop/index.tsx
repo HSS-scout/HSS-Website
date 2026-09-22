@@ -5,6 +5,7 @@ import FooterImage from "../FooterImage";
 import FooterLocation from "../FooterLocation";
 import FooterContact from "../FooterContact";
 import { useTranslations } from "next-intl";
+import MapWrapper from "@/components/map/MapWrapper"
 
 const FooterDesktop = () => {
   const t = useTranslations("footer");
@@ -149,6 +150,7 @@ const FooterDesktop = () => {
               />
             </Link>
           </FooterContact>
+          <MapWrapper page={"footer"} />
         </section>
       </div>
     </footer>
