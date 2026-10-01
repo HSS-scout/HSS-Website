@@ -5,6 +5,7 @@ import FooterImage from "../FooterImage";
 import FooterLocation from "../FooterLocation";
 import FooterContact from "../FooterContact";
 import { useTranslations } from "next-intl";
+import MapWrapper from "../FooterMap";
 
 const FooterDesktop = () => {
   const t = useTranslations("footer");
@@ -25,6 +26,8 @@ const FooterDesktop = () => {
         />
       </Link>
       <div className="bg-blue-900 flex justify-between pt-25 px-10 pb-10 gap-5">
+        <div className="w-[25%]"></div>
+        {/*
         <section
           aria-labelledby="footer-location"
           className="flex flex-col w-[25%] justify-between"
@@ -50,7 +53,7 @@ const FooterDesktop = () => {
             </ul>
           </address>
         </section>
-
+*/}
         <section
           aria-labelledby="footer-about"
           className="flex flex-col text-center px-4 justify-between w-[60%] items-center"
@@ -149,6 +152,17 @@ const FooterDesktop = () => {
               />
             </Link>
           </FooterContact>
+        </section>
+      </div>
+      <div className="bg-blue-900 px-10 pb-10 gap-5">
+        <section>
+          <h2
+            id="footer-location"
+            className="font-heading text-yellow-500 font-bold text-[26px]"
+          >
+            {t("our_premises")}
+          </h2>
+          <MapWrapper page="footer" />
         </section>
       </div>
     </footer>
