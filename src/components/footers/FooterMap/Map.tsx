@@ -18,7 +18,7 @@ interface mapProps {
 const Map = ({ page }: mapProps) => {
   const markerRef = useRef<Record<number, L.Marker | null>>({});
   const [selectedId, setSelectedId] = useState<number | null>(null);
-  const position: [number, number] = [59.37844, 17.82824];
+  const position: [number, number] = [59.37844, 17.82823];
   const zoom: number = 11.5;
   const center = position;
   return (
