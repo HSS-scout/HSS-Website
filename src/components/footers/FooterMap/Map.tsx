@@ -19,7 +19,7 @@ const Map = ({ page }: mapProps) => {
   const markerRef = useRef<Record<number, L.Marker | null>>({});
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const position: [number, number] = [59.37844, 17.82824];
-  const zoom: number = 12;
+  const zoom: number = 11.5;
   const center = position;
   return (
     <div className="py-3 md:py-5">
