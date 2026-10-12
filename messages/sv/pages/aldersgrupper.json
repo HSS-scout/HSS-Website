@@ -60,7 +60,7 @@
       "utmanare": {
         "title": "Utmanare",
         "ageGroup": "Utmanarscouter",
-        "ageRange": "15+ år",
+        "ageRange": "15-19 år",
         "subtitle": "Seglar självständigt, tar egna beslut och utvecklas till ledare.",
         "info": "För utmanare, som brukar gå i årskurs 9 och på gymnasiet, är vänner och gemenskap viktigt. I Scouterna ställs utmanarna inför större uppgifter i ett allt tydligare internationellt sammanhang. Scouterna provar på vuxenrollen och alla får utrymme att testa och hitta sina roller. Som utmanarscout får man ta ett stort ansvar samtidigt som det är okej att vara barnslig eller bara vara. Utmanarscouter styr själva vad de vill göra. För att få saker att hända är det bra att driva det som projekt. Ett projekt kan vara allt från att åka iväg på fjällvandring till att lära sig dansa salsa. Det finns dessutom tio utmaningar, med tillhörande märken, som är som projekt med vissa teman.",
         "info_block_one": "För utmanare, som brukar gå i årskurs 9 och på gymnasiet, är vänner och gemenskap viktigt.",
@@ -69,7 +69,7 @@
         "info_block_four": "Ett projekt kan vara allt från att åka iväg på fjällvandring till att lära sig dansa salsa. Det finns dessutom tio utmaningar, med tillhörande märken, som är som projekt med vissa teman.",
         "info_block_five": "",
         "info_block_six": "",
-        "meetings": "Träffas på tisdagar eller onsdagar",
+        "meetings": "Träffas på onsdagar",
         "price": "Pris: 850kr/termin"
       },
 
@@ -85,7 +85,7 @@
         "info_block_four": "Den som deltar tillsammans med barnet kan vara en förälder, en mor- eller farförälder, släkting, vän till familjen eller en annan person som barnet känner sig tryggt med.",
         "info_block_five": "I Familjescouting är det relationen mellan barnet och den vuxne som ska få utvecklas. I varje kår får man själv sätta riktlinjer för om det kan vara flera barn per vuxen och om man även vill inkludera äldre syskon.",
         "info_block_six": "",
-        "meetings": "Träffas på fredagar",
+        "meetings": "Träffas vissa söndagar",
         "price": "Pris: 550kr/termin"
       }
     }
