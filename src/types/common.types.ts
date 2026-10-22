@@ -1,5 +1,5 @@
 export type CommonType = {
-  variant: string,
+  variant: string
 }
 
 export type IdProp = {
@@ -7,60 +7,58 @@ export type IdProp = {
 }
 
 export type ImageProp = {
-  id: number,
+  id: number
   image: string
 }
 
 export type TextProp = {
-  id: number,
+  id: number
   text: string
 }
 
 export type SourceProp = {
-  id: number,
+  id: number
   source: string
 }
 
 export type TextImageProps = {
-  id: number,
-  text: string,
+  id: number
+  text: string
   image: string
 }
 
 export type VariantType = {
-  variantBackground: string,
+  variantBackground: string
 }
 
 export type ColorType = {
-  foreground: string,
-  background: string,
+  foreground: string
+  background: string
 }
 
 export type ButtonProps = {
-  ariaLabel: string, 
-  href: string,
-  variant: 
-    | 'primaryBrown'
-    | 'primaryBlue'
-    | 'secondary'
-    | 'secondaryBlue'
-    | 'ternaryBlue'
-  text: string,
-  download?: boolean,
-  target?: string,
+  ariaLabel: string
+  href: string
+  variant:
+    | "primaryBrown"
+    | "primaryBlue"
+    | "secondary"
+    | "secondaryBlue"
+    | "ternaryBlue"
+  text: string
+  download?: boolean
+  target?: string
 }
 
 export type CloseButtonProps = {
-  ariaLabel: string,
-  text: string,
+  ariaLabel: string
+  text: string
   onClick: () => void
 }
 
 export type ReadMoreButtonProps = {
-  ariaLabel: string,
-  variant: 
-    | 'primaryBlue'
-    | 'secondaryBlue'
-  text: string,
+  ariaLabel: string
+  variant: "primaryBlue" | "secondaryBlue"
+  text: string
   onClick: () => void
 }
