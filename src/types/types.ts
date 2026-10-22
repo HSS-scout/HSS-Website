@@ -25,7 +25,6 @@ export type ageGroupCardContentType = {
   colourSchemeActive: string,
   icon: string,
   image: string,
-  price: string,
   apply: string
 }
 
