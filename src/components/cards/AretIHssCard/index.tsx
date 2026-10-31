@@ -21,7 +21,7 @@ const AretiHssCard = (content: aretIHssContentType) => {
             <h3 className="paragraph-light font-bold text-blue-900 mb-0">{month.subtitle}</h3>
             {information && information.map((info, index) => {
               return (
-                <p key={index} className="paragraph-light mb-0">{info}</p>
+                <p key={index} className="paragraph-light mb-0 invisible">{info}</p> //Remove "invisible" after adding correct year information
               )
             })}
           </section>

@@ -55,7 +55,7 @@ const Nav = () => {
       className="absolute z-10 grid grid-cols-[4fr_auto_auto] grid-rows-[auto_auto] auto-rows-max xl:grid-cols-[1fr_2fr_1fr] gap-x-4 md:gap-x-8 gap-y-2 w-full items-center py-4"
     >
       <Link
-        scroll = {false}
+        scroll={false}
         aria-label="till förstasidan"
         href="/"
         className="z-50 block col-start-1 ml-4"
@@ -109,23 +109,25 @@ const Nav = () => {
                 </button>
                 {activeIndex === index && (
                   <ul className="z-40 flex flex-col mr-5 mt-2 rounded-sm text-primary font-body font-bold">
-                    {item.content.map((text, index) => {
-                      return (
-                        <li
-                          key={index}
-                          className="flex justify-start items-center pr-8 pl-8 py-4 underline-offset-7 whitespace-nowrap"
-                        >
-                          <Link
-                            className="sm:text-xl flex gap-4"
-                            href={`${text.href}`}
-                            onClick={closeMenu}
+                    {item.content
+                      .filter((text) => !text.hidden)
+                      .map((text, index) => {
+                        return (
+                          <li
+                            key={index}
+                            className="flex justify-start items-center pr-8 pl-8 py-4 underline-offset-7 whitespace-nowrap"
                           >
-                            <Icons name={text.mobileIcon} />
-                            {t(text.textKey)}
-                          </Link>
-                        </li>
-                      );
-                    })}
+                            <Link
+                              className="sm:text-xl flex gap-4"
+                              href={`${text.href}`}
+                              onClick={closeMenu}
+                            >
+                              <Icons name={text.mobileIcon} />
+                              {t(text.textKey)}
+                            </Link>
+                          </li>
+                        );
+                      })}
                   </ul>
                 )}
               </li>

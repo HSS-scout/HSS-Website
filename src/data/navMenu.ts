@@ -1,4 +1,4 @@
-import { MenuItemsType } from "../types/types"
+import { MenuItemsType } from "../types/types";
 
 export const navItems: MenuItemsType[] = [
   {
@@ -67,6 +67,7 @@ export const navItems: MenuItemsType[] = [
         href: "/aret-i-hss",
         icon: "calendar",
         mobileIcon: "calendar",
+        hidden: true,
       },
     ],
   },

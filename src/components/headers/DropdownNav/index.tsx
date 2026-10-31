@@ -12,6 +12,7 @@ export type DropdownNavProps = {
     icon: string;
     href: string;
     textKey: string;
+    hidden?: boolean;
   }[];
 };
 
@@ -37,18 +38,21 @@ export default function DropdownNav({
       rounded-sm
       p-6
       w-max
-      ${isOpen
+      ${
+        isOpen
           ? "visible max-h-96 opacity-100 translate-y-0"
           : "invisible max-h-0 opacity-0 -translate-y-5 -z-10"
-        }
+      }
     `}
     >
-      {content.map((text, idx) => {
-        return (
-          <li
-            tabIndex={isOpen ? 0 : -1}
-            key={idx}
-            className={`
+      {content
+        .filter((text) => !text.hidden)
+        .map((text, idx) => {
+          return (
+            <li
+              tabIndex={isOpen ? 0 : -1}
+              key={idx}
+              className={`
               group 
               opacity-0 
               flex 
@@ -60,15 +64,16 @@ export default function DropdownNav({
               border-transparent 
               duration-200 
               hover:border-blue-100/80
-              ${isOpen
-                ? "opacity-100 max-h-97 translate-y-0"
-                : "opacity-0 -translate-y-3 max-w-300 max-h-0 -z-10"
+              ${
+                isOpen
+                  ? "opacity-100 max-h-97 translate-y-0"
+                  : "opacity-0 -translate-y-3 max-w-300 max-h-0 -z-10"
               }
             `}
-          >
-            <Link
-              href={text.href}
-              className={`
+            >
+              <Link
+                href={text.href}
+                className={`
                 group 
                 flex 
                 items-center 
@@ -78,26 +83,27 @@ export default function DropdownNav({
                 opacity-0 
                 py-3  
                 cursor-pointer 
-                ${isOpen
-                  ? "opacity-100 max-h-97 translate-y-0"
-                  : "sr-only opacity-0 focus:text-background -translate-y-5 -z-10"
+                ${
+                  isOpen
+                    ? "opacity-100 max-h-97 translate-y-0"
+                    : "sr-only opacity-0 focus:text-background -translate-y-5 -z-10"
                 }
               `}
-              onClick={() => {
-                closeDropdown();
-                closeMenu();
-              }}
-            >
-              <Icons
-                name={text.icon}
-                variant="text-accent md:mr-4"
-                aria-hidden="true"
-              />
-              {t(text.textKey)}
-            </Link>
-          </li>
-        );
-      })}
+                onClick={() => {
+                  closeDropdown();
+                  closeMenu();
+                }}
+              >
+                <Icons
+                  name={text.icon}
+                  variant="text-accent md:mr-4"
+                  aria-hidden="true"
+                />
+                {t(text.textKey)}
+              </Link>
+            </li>
+          );
+        })}
     </ul>
   );
 }

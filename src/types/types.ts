@@ -70,7 +70,8 @@ export type MenuItemsType = {
     textKey: string;
     href: string;
     icon: string;
-    mobileIcon: string
+    mobileIcon: string;
+    hidden?: boolean;
   }[];
 }
 

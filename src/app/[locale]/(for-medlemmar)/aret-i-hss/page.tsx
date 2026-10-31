@@ -14,7 +14,6 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 const AretiHssPage = () => {
-
   const t = useTranslations("aret-i-hss");
   const seasons = t.raw("seasons") as typeof aretIHss;
 
