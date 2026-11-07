@@ -28,7 +28,6 @@ export const ageGroupCardContent:ageGroupCardContentType[] = [
     colourSchemeActive: "active:bg-[#444444]",
     icon: "sjohumlor.png",
     image: "aldersgroup_sjohumlorna.png",
-    price: "Pris: 750kr/termin",
     apply: "https://www.scoutnet.se/register/in/group/764"
   },
   {
@@ -59,7 +58,6 @@ export const ageGroupCardContent:ageGroupCardContentType[] = [
     colourSchemeActive: "active:bg-[#444444]",
     icon: "kaparna.png",
     image: "aldersgroup_kaparna.png",
-    price: "Pris: 850kr/termin",
     apply: "https://www.scoutnet.se/register/in/group/764"
   },
   {
@@ -89,7 +87,6 @@ export const ageGroupCardContent:ageGroupCardContentType[] = [
     colourSchemeActive: "active:bg-[#444444]",
     icon: "konvojen.png",
     image: "aldersgroup_konvojen.png",
-    price: "Pris: 850kr/termin",
     apply: "https://www.scoutnet.se/register/in/group/764"
   },
   {
@@ -119,7 +116,6 @@ export const ageGroupCardContent:ageGroupCardContentType[] = [
     colourSchemeActive: "active:bg-[#444444]",
     icon: "utmanare.png",
     image: "aldersgroup_utmanare.png",
-    price: "Pris: 850kr/termin",
     apply: "https://www.scoutnet.se/register/in/group/764"
   },
   {
@@ -148,8 +144,7 @@ export const ageGroupCardContent:ageGroupCardContentType[] = [
     colourSchemeHover: "hover:bg-[#444444]",
     colourSchemeActive: "active:bg-[#444444]",
     icon: "familjescout_logo.png",
-    image: "aldersgrupper_familjescouter.jpg",
-    price: "Pris: 550kr/termin",
+    image: "aldersgroup_familjescouter_new.jpg",
     apply: "https://www.scoutnet.se/register/in/group/764"
   },
 ]
