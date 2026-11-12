@@ -2,7 +2,6 @@ import Image from "next/image";
 import BorderSingleDown from "@/components/borders/BorderSingleDown";
 import PolicyIntro from "@/components/cards/PolicyIntro";
 import PolicyLifejackets from "@/components/cards/PolicyLifejackets";
-import PolicyPhoto from "@/components/cards/PolicyPhoto";
 import PolicyInfo from "@/components/cards/PolicyInfo";
 import PolicyGdpr from "@/components/cards/PolicyGdpr";
 import PolicyGatheredInfo from "@/components/cards/PolicyGatheredInfo";
@@ -26,7 +25,6 @@ const PolicyPage = () => {
       <BorderSingleDown variant="text-blue-100" />
       <PolicyLifejackets />
       <BorderSingleDown variant="text-white bg-yellow-100" />
-      <PolicyPhoto />
       <BorderSingleDown variant="text-yellow-100" />
       <PolicyInfo />
       <PolicyGdpr />
