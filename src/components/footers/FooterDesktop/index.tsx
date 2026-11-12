@@ -155,7 +155,7 @@ const FooterDesktop = () => {
         </section>
       </div>
       <div className="bg-blue-900 px-10 pb-10 gap-5">
-        <section>
+        <section className="mx-auto md:w-9/10 lg:w-7/10">
           <h2
             id="footer-location"
             className="font-heading text-yellow-500 font-bold text-[26px]"
