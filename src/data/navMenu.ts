@@ -62,12 +62,12 @@ export const navItems: MenuItemsType[] = [
         icon: "/Icons/brandHss.png",
         mobileIcon: "/Icons/brand-blue-logo.svg",
       },
-      {
-        textKey: "forMembers.yearInHss",
-        href: "/aret-i-hss",
-        icon: "calendar",
-        mobileIcon: "calendar",
-      },
+      // {
+      //   textKey: "forMembers.yearInHss",
+      //   href: "/aret-i-hss",
+      //   icon: "calendar",
+      //   mobileIcon: "calendar",
+      // },
     ],
   },
   {
