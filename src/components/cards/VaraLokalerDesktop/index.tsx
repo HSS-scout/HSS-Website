@@ -186,8 +186,8 @@ const VaraLokalerDesktop = () => {
       <article className="container flex gap-5 items-center">
         <div className="bg-blue-100 border border-blue-500 rounded-md p-5 w-90 h-125 flex gap-2.5 flex-col justify-center">
           <h3 className="heading-3">{t("ruffen-detail1")}</h3>
-          <h4 className="heading-4">{t("ruffen-detail2")}</h4>
-          <p className="paragraph-light">{t("ruffen-detail3")}</p>
+          {/* <h4 className="heading-4">{t("ruffen-detail2")}</h4>
+          <p className="paragraph-light">{t("ruffen-detail3")}</p> */}
           <h4 className="heading-4">{t("ruffen-detail4")}</h4>
           <p className="paragraph-light">{t("ruffen-detail5")}</p>
           <h4 className="heading-4">{t("ruffen-detail6")}</h4>
