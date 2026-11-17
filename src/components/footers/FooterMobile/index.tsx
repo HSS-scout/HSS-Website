@@ -6,6 +6,7 @@ import FooterHeadSection from "./FooterHeadSection";
 import FooterLocation from "../FooterLocation";
 import FooterContact from "../FooterContact";
 import { useTranslations } from "next-intl";
+import MapWrapper from "../FooterMap";
 
 const FooterMobile = () => {
   const t = useTranslations("footer");
@@ -13,7 +14,9 @@ const FooterMobile = () => {
     <footer className="block md:hidden">
       <FooterImage />
       <FooterHeadSection />
+
       <div className="bg-blue-900 p-8">
+        {/*
         <h2 className="font-heading text-yellow-500 font-bold text-[18px]">
           {t("our_premises")}
         </h2>
@@ -31,6 +34,7 @@ const FooterMobile = () => {
             />
           </ul>
         </address>
+        */}
         <div className="grid grid-cols-[3fr_2fr] md:grid-cols-[2fr_1fr] justify-between border-solid border-0 border-b border-grey-300 py-3">
           <FooterContact
             title={t("contact_information")}
@@ -77,6 +81,12 @@ const FooterMobile = () => {
             </Link>
           </FooterContact>
         </div>
+      </div>
+      <div className="bg-blue-900 px-8">
+        <h2 className="font-heading text-yellow-500 font-bold text-[18px]">
+          {t("our_premises")}
+        </h2>
+        <MapWrapper page="footer" />
       </div>
     </footer>
   );
