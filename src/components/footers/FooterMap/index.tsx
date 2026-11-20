@@ -8,7 +8,11 @@ interface mapWrapperProps {
 const Map = dynamic(() => import("./Map"), { ssr: false });
 
 const MapWrapper = ({ page }: mapWrapperProps) => {
-  return <Map page={page} />;
+  return (
+    // <div className="mx-auto lg:w-8/10"> 
+      <Map page={page} />
+    // </div>
+  )
 };
 
 export default MapWrapper;
