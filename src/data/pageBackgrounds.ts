@@ -34,10 +34,6 @@ export const pageHeaderImage: pageHeaderImageType[] = [
     image: "scoutmarken_hero.png"
   },
   { 
-    path: "/aret-i-hss",
-    image: "aretiHss_hero.JPEG"
-  },
-  { 
     path: "vilka-ar-vi",
     image: "vilkaArVi_hero.jpg"
   },

@@ -144,14 +144,6 @@ export type FaqProps = {
   contentKey: string
 }
 
-export type aretIHssContentType = {
-  title: string,
-  icon: string,
-  months: {
-    subtitle: string,
-    info: string
-  }[]
-}
 
 export type historyHSSContentType = {
   info: string

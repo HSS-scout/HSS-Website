@@ -17,7 +17,6 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "pages/vad-gor-vi",
     "pages/bra-att-veta",
     "pages/engagera-dig",
-    "pages/aret-i-hss",
     "pages/aldersgrupper",
     "not-found",
     "pages/scoutmarken",

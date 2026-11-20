@@ -54,23 +54,6 @@ export const navItems: MenuItemsType[] = [
     ],
   },
   {
-    titleKey: "forMembers.title",
-    content: [
-      {
-        textKey: "forMembers.scoutBadges",
-        href: "/scoutmarken",
-        icon: "/Icons/brandHss.png",
-        mobileIcon: "/Icons/brand-blue-logo.svg",
-      },
-      // {
-      //   textKey: "forMembers.yearInHss",
-      //   href: "/aret-i-hss",
-      //   icon: "calendar",
-      //   mobileIcon: "calendar",
-      // },
-    ],
-  },
-  {
     titleKey: "aboutUs.title",
     content: [
       {
