@@ -6,7 +6,7 @@ export const ageGroupCardContent:ageGroupCardContentType[] = [
     title: "Sjöhumlorna",
     ageGroup: "Spårarscouter",
     ageRange: "8-9 år",
-    subtitle: "Knutar, naturkunskap och jollesegling. Tälje med kniv eller lägga bandage på någon som gjort sig illa.",
+    subtitle: "Lär dig nya saker och träffa nya kompisar redan från första dagen i Scouterna. Vi leker, provar och lär oss tillsammans om segling, matlagning, naturen och mycket mer!",
     info: "Vid 8 års ålder, när man börjar årskurs 2, kan man börja i HSS. Vi har möten varje vecka samt övernattningar, hajker och läger. Här får barnen lära sig knopar, naturkunskap och sjömanskap på ett lekfullt sätt. I Scouterna lär man sig genom att prova på riktigt. Till exempel att tälja med kniv, lägga bandage och samarbeta i patruller där alla får vara med och bestämma. Vi seglar också optimistjollar och tvåkronor tillsammans.",
     info_block_one: "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2.",
     info_block_two: "Vi har möten varje vecka samt övernattningar, både hajker och längre läger. Här får barnen lära sig knopar, grundläggande naturkunskap och sjömanskap på ett lekfullt sätt.",
