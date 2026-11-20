@@ -47,21 +47,6 @@ export const varaBatarCardContent: varaBatarCardContentType[] = [
     ]
   },
   {
-    titleKey: "viggar.title",
-    infoKey: "viggar.info",
-    waveImage: "wavyLineTransparent.png",
-    boatImage: [
-      {
-        image: "varaBatar_body10.png",
-        alt: "Albin Viggar",
-      },
-      {
-        image: "varaBatar_body11.JPEG",
-        alt: "Albin Viggar"
-      }
-    ]
-  },
-  {
     titleKey: "h.title",
     infoKey: "h.info",
     waveImage: "wavyLineTransparent.png",
