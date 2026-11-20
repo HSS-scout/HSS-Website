@@ -21,8 +21,7 @@
         "info_block_four": "While we do that, we work together in patrols — small groups where everyone has a say. That is smart, because together you can always help each other come up with even more fun things to do. We sail Optimist dinghies and two-kronor boats.",
         "info_block_five": "",
         "info_block_six": "",
-        "meetings": "Meets on Mondays",
-        "price": "Price: 750 SEK/term"
+        "meetings": "Meets on Mondays"
       },
 
       "kaparna": {
@@ -37,8 +36,7 @@
         "info_block_four": "The Kaparna section meets on Tuesdays at our clubhouse Ruffen at Hässelby Strandbad.",
         "info_block_five": "As a scout you always do your best, but it doesn't matter if things go wrong — that is why we reflect on how things went so we can do better next time.",
         "info_block_six": "",
-        "meetings": "Meets on Tuesdays",
-        "price": "Price: 850 SEK/term"
+        "meetings": "Meets on Tuesdays"
       },
 
       "konvojen": {
@@ -46,15 +44,14 @@
         "ageGroup": "Adventure Scouts",
         "ageRange": "age 12-14",
         "subtitle": "Serious archipelago sailing, winter hiking in tents, and the legendary ice-hole swim that no one escapes.",
-        "info": "At the age of 12 the doors open to the Adventure Scouts. Over three exciting years you learn useful skills in seamanship and nature. This is where sailing gets serious, heading out into the archipelago in summer. When we are not sailing we practise navigation and take part in traditional land scout activities. In winter, when it is coldest, we go on a proper winter hike sleeping in tents. Another highlight is the traditional ice-hole swim that no patrol scout escapes… Konvojen meets on Thursdays.",
-        "info_block_one": "At the age of 12 the doors open to the Adventure Scouts. Over three exciting years you learn useful skills in seamanship and nature.",
-        "info_block_two": "This is where sailing gets serious, heading out into the archipelago in summer. When we are not sailing we practise navigation and take part in traditional land scout activities.",
-        "info_block_three": "In winter, when it is coldest, we go on a proper winter hike sleeping in tents.",
+        "info": "At the age of 12, the time as an Adventurer Scout begins. Over three exciting years, you learn seamanship, survival skills, and leadership—with your patrol playing a central role in the adventure. Sailing takes on a new dimension as you head out into the archipelago aboard the troop’s keelboats. When the boats are on land, we cover everything from navigation to crafting the perfect dessert on a camping stove. Here, we explore both external and internal adventures, fostering growth as individuals, teammates, and leaders. Our Adventurer Scout unit, Konvojen, meets on Thursday evenings.",
+        "info_block_one": "At the age of 12, the time as an Adventure Scout begins. Over three exciting years, you learn seamanship, survival skills, and leadership—with your patrol becoming a major part of the adventure.",
+        "info_block_two": "Sailing now becomes something more, as you get to head out into the archipelago in the troop’s keelboats. While the boats are on land, we learn everything from navigation to how to make the best dessert on a camping stove.",
+        "info_block_three": "Here, we get to explore both external and internal adventures, allowing us to grow as individuals, companions, and leaders.",
         "info_block_four": "Another highlight is the traditional ice-hole swim that no patrol scout escapes…",
-        "info_block_five": "Konvojen meets on Thursdays.",
+        "info_block_five": "Adventure Scouts meet on Thursdays.",
         "info_block_six": "",
-        "meetings": "Meets on Thursdays",
-        "price": "Price: 850 SEK/term"
+        "meetings": "Meets on Thursdays"
       },
 
       "utmanare": {
@@ -69,8 +66,7 @@
         "info_block_four": "A project can be anything from going on a mountain hike to learning to dance salsa. There are also ten challenges, each with its own badge, which work like projects with specific themes.",
         "info_block_five": "",
         "info_block_six": "",
-        "meetings": "Meets on Tuesdays or Wednesdays",
-        "price": "Price: 850 SEK/term"
+        "meetings": "Meets on Tuesdays or Wednesdays"
       },
 
       "familjescouter": {
@@ -85,8 +81,7 @@
         "info_block_four": "The person joining alongside the child can be a parent, grandparent, relative, family friend, or any other person the child feels comfortable with.",
         "info_block_five": "In Family Scouting it is the relationship between the child and the adult that should be given space to grow. Each group can set its own guidelines on whether more than one child per adult is allowed and whether older siblings may also be included.",
         "info_block_six": "",
-        "meetings": "Meets on Fridays",
-        "price": "Price: 550 SEK/term"
+        "meetings": "Meets on Fridays"
       }
     }
   }
